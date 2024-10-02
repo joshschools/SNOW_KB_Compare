@@ -4,7 +4,7 @@
 // @version      2024-10-02
 // @description  Compare different versions of KB articles, now with correct version, author, and date parsing
 // @author
-// @include      https://servicenow.ent.southcom.mil/*
+// @include      https://servicenow.com/*
 // @grant        none
 // ==/UserScript==
 
