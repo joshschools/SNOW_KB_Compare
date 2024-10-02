@@ -3,7 +3,7 @@
 A Tampermonkey script for ServiceNow that allows you to compare different versions of Knowledge Base (KB) articles in a GitHub-style unified diff format. This script helps knowledge analysts easily visualize the differences between article versions, with collapsible sections for unchanged content and proper version, author, and date extraction.
 
 ## Features
-- **Version Comparison**: Compare any two versions of a KB article, showing differences using a line-by-line unified diff.
+- **Version Comparison**: Compare any two versions of a KB article/block, showing differences using a line-by-line unified diff.
 - **Author and Date Information**: Each version in the dropdown is displayed with the correct version number, author, and date.
 - **Collapsible Unchanged Lines**: Unchanged sections of the article can be collapsed and expanded for a cleaner comparison view.
 - **GitHub-Style Diff**: Changes are shown in a unified format with green for additions and red for removals, similar to GitHub's diff display.
@@ -26,12 +26,12 @@ TODO
    - Click `File -> Save`.
 
 3. **Use the Script**:
-   - Navigate to a KB article page on your ServiceNow instance.
+   - Navigate to a KB article/block page on your ServiceNow instance.
    - Select versions from the dropdown and click `Compare Versions` to see the differences.
 
 ## Usage
 
-- When viewing a Knowledge Base article in ServiceNow, the script will add a dropdown and "Compare Versions" button to the UI (next to the "Subscribed" button).
+- When viewing a Knowledge Base article/block in ServiceNow, the script will add a dropdown and "Compare Versions" button to the UI (next to the "Subscribed" button).
 - **Step 1**: Select the version you'd like to compare from the dropdown.
 - **Step 2**: Click the "Compare Versions" button.
 - **Step 3**: The version comparison will be displayed above the article in a unified diff format, showing lines added (green) and removed (red). Unchanged sections can be expanded or collapsed.
